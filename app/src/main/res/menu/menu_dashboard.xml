@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item
+   android:title="Trang Chủ"
+   android:id="@+id/trangchu"
+   android:icon="@drawable/house"
+   />
+    <item
+            android:title="Giày Nike"
+            android:id="@+id/nike"
+            android:icon="@drawable/nike"
+    />
+    <item
+            android:title="Giày Vans"
+            android:id="@+id/vans"
+            android:icon="@drawable/vans"
+    />
+    <item
+            android:title="Giày Adidas"
+            android:id="@+id/adidas"
+            android:icon="@drawable/adidas"
+    />
+    <item
+            android:title="Liên hệ"
+            android:id="@+id/lienhe"
+            android:icon="@drawable/phone"
+    />
+    <item
+            android:title="Thông tin"
+            android:id="@+id/thongtin"
+            android:icon="@drawable/info"
+    />
+</menu>

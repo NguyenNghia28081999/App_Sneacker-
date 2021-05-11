@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:text="tran huu thai"
+        android:id="@+id/txtmahoadon"
+        android:textColor="@android:color/background_dark"
+        android:shadowColor="@android:color/background_dark"/>
+       <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+       android:textSize="18sp"
+                 android:padding="5dp"
+                 android:text="tran huu thai"
+                 android:id="@+id/txtten"
+       android:textColor="@android:color/background_dark"
+       android:shadowColor="@android:color/background_dark"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textSize="18sp"
+              android:padding="5dp"
+              android:text="tran huu thai"
+              android:id="@+id/txtdiachi"
+              android:textColor="@android:color/background_dark"
+              android:shadowColor="@android:color/background_dark"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textSize="18sp"
+              android:padding="5dp"
+              android:text="tran huu thai"
+              android:id="@+id/txtsdt"
+              android:textColor="@android:color/background_dark"
+              android:shadowColor="@android:color/background_dark"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textSize="18sp"
+              android:padding="5dp"
+              android:text="tran huu thai"
+              android:id="@+id/txttongtien"
+              android:textColor="@android:color/background_dark"
+              android:shadowColor="@android:color/background_dark"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:text="tran huu thai"
+        android:id="@+id/txtsize"
+        android:textColor="@android:color/background_dark"
+        android:shadowColor="@android:color/background_dark"/>
+</LinearLayout>

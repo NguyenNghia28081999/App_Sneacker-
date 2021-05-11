@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    style="@style/ThemeOverlay.AppCompat.Dark"
+    android:background="#FF9800"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:textSize="22sp"
+    android:textColor="@android:color/background_dark"
+              android:text="Sneaker Shop"
+              android:layout_gravity="center"
+              android:textStyle="bold"
+
+              android:layout_marginTop="15dp"
+    android:shadowColor="@android:color/background_dark"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:textSize="16sp"
+              android:layout_gravity="center"
+              android:layout_margin="25dp"
+              android:padding="5dp"
+              android:text="Sneaker Shop cung cấp giày thể thao chính hãng, giày chạy bộ chính hãng, giày running chính hãng, giày thương hiệu Adidas, Nike, Puma, New Balance...giày running..."
+              android:id="@+id/txtmota"
+              android:textColor="#858580"
+              android:paddingLeft="15dp"
+
+    />
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_marginLeft="10dp"
+                  android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/custom_shape_cardview"
+                  android:layout_marginRight="10dp"
+                  android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+                  android:drawablePadding="10dp"
+                  android:paddingLeft="5dp"
+
+                  android:textColor="@android:color/background_dark"
+                  android:shadowColor="@android:color/background_dark"
+                  android:id="@+id/txtdiachi"
+                  android:padding="5dp"
+                  android:gravity="center"
+                  android:textSize="14sp"
+                  android:text="Shop Sneaker (Agrium)"
+                  android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/home_lh"/>
+        <TextView android:layout_width="wrap_content"
+                  android:drawablePadding="10dp"
+                  android:paddingLeft="5dp"
+                  android:textColor="@android:color/background_dark"
+                  android:shadowColor="@android:color/background_dark"
+                  android:id="@+id/txtgps"
+                  android:padding="5dp"
+                  android:gravity="center"
+                  android:text="Số 6- Trần Văn Ơn- Phú Hoà- Thủ Dầu Một- Bình Dương "
+                  android:layout_height="wrap_content"
+                  android:drawableLeft="@drawable/gps"/>
+        <TextView android:layout_width="wrap_content"
+                  android:drawablePadding="10dp"
+                  android:paddingLeft="5dp"
+                  android:textSize="14sp"
+                  android:textColor="@android:color/background_dark"
+                  android:shadowColor="@android:color/background_dark"
+                  android:id="@+id/txtphone"
+                  android:padding="5dp"
+                  android:gravity="center"
+                  android:text="Liên hệ : 0924087196"
+                  android:layout_height="wrap_content"
+                  android:drawableLeft="@drawable/telephone"/>
+        <TextView android:layout_width="wrap_content"
+                  android:drawablePadding="10dp"
+                  android:paddingLeft="5dp"
+                  android:textColor="@android:color/background_dark"
+                  android:shadowColor="@android:color/background_dark"
+                  android:id="@+id/txtemail"
+                  android:padding="5dp"
+                  android:textSize="14sp"
+                  android:gravity="center"
+                  android:text="Email liên hệ : nhacaisdo88@gmail.com "
+                  android:layout_height="wrap_content"
+                  android:drawableLeft="@drawable/telephone"/>
+    </LinearLayout>
+
+
+</LinearLayout>

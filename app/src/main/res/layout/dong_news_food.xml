@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="165dp"
+      app:cardBackgroundColor="#FAF9F8"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:layout_height="180dp">
+    <LinearLayout android:layout_width="match_parent"
+
+                  android:orientation="vertical"
+                  android:layout_height="match_parent">
+
+        <ImageView android:layout_width="90dp"
+                   android:background="#CFCFC8"
+                   android:layout_marginTop="5dp"
+                   android:layout_gravity="center"
+                   android:layout_height="90dp"
+        android:id="@+id/hinhanh"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="17sp"
+                  android:padding="7dp"
+                  android:singleLine="true"
+                  android:gravity="center"
+                  android:id="@+id/txtten"
+                  android:text="Rau cải bắp"
+                  android:textColor="#0A0A0B"
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="17sp"
+                  android:padding="7dp"
+                  android:maxLines="1"
+                  android:singleLine="true"
+                  android:gravity="center"
+                  android:id="@+id/txtgiatien"
+                  android:text="Giá : 25000đ"
+                  android:textColor="#F80759"
+        />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

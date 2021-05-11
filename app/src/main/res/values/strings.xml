@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Shop Sneaker</string>
+    <string name="quenmatkhau"><u>Quên Mật Khẩu ?</u></string>
+    <string name="thongtilienhe"><u>Thông tin liên hê</u>̣</string>
+    <string name="diachi"><u>Địa Chi</u></string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="API_MAP_KEY">AIzaSyD7mc7snQBsMymYXf5ikdtU4Vnxu5ONVJg</string>
+</resources>

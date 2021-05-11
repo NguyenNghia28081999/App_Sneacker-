@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                           xmlns:app="http://schemas.android.com/apk/res-auto"
+                                           android:fitsSystemWindows="true"
+                                           android:id="@+id/drawablelayout"
+                                           android:layout_width="match_parent"
+                                           android:layout_height="match_parent">
+         <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+             <LinearLayout android:layout_width="match_parent"
+                           android:orientation="vertical"
+                           android:background="@android:color/background_light"
+                           android:layout_height="match_parent">
+
+                 <LinearLayout
+                     android:layout_marginTop="10dp"
+                     android:layout_marginRight="20dp"
+                     android:layout_marginLeft="20dp"
+                     android:orientation="horizontal"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+                     <EditText
+
+                         android:layout_weight="1"
+                         android:hint="Tìm Kiếm"
+                         android:drawablePadding="10dp"
+                         android:id="@+id/edittimkiem"
+                         android:shadowColor="@android:color/background_dark"
+                         android:textColor="@android:color/background_dark"
+                         android:textSize="16sp"
+                         android:drawableLeft="@drawable/search"
+                         android:layout_width="wrap_content"
+                         android:layout_height="50dp"/>
+                     <Button
+                         android:background="@drawable/custom_button_login"
+                         android:textColor="@android:color/background_light"
+                         android:text="Tìm Kiếm"
+                         android:layout_marginLeft="10dp"
+                         android:id="@+id/btntimkiem"
+                         android:layout_width="wrap_content"
+                         android:layout_height="40dp"/>
+                 </LinearLayout>
+                 <androidx.appcompat.widget.Toolbar
+                         android:background="#FF9800"
+                         app:title="Trang Chủ"
+                         app:navigationIcon="@drawable/menu_foreground"
+                         android:layout_marginTop="5dp"
+                         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                         style="@style/ThemeOverlay.AppCompat.Dark"
+                         android:layout_width="match_parent" android:layout_height="wrap_content"
+                         android:id="@+id/toolbar">
+                     <ImageView android:layout_width="50dp"
+                                android:id="@+id/giohang"
+                                android:layout_marginRight="5dp"
+                                android:src="@drawable/market_foreground"
+                                android:layout_height="50dp"
+                                android:layout_gravity="end"/>
+                 </androidx.appcompat.widget.Toolbar>
+                 <androidx.viewpager.widget.ViewPager
+                         android:layout_marginTop="5dp"
+                         android:layout_width="match_parent"
+                         android:layout_height="150dp"
+                         android:id="@+id/viewfilip"
+                 />
+                 <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:text="Sản Phẩm Mới"
+                           android:textSize="18sp"
+                           android:background="#EDEDE4"
+                           android:layout_marginTop="5dp"
+                           android:padding="6dp"
+                           android:paddingLeft="10dp"
+                           android:textStyle="bold"
+                           android:shadowColor="@android:color/holo_orange_dark"
+                           android:textColor="@android:color/holo_orange_dark"
+                           android:textAllCaps="true"/>
+                 <GridView android:layout_width="match_parent"
+                           android:id="@+id/gv"
+                           android:layout_marginTop="10dp"
+                           android:horizontalSpacing="15dp"
+                           android:verticalSpacing="15dp"
+                           android:numColumns="2"
+
+                           android:layout_height="match_parent"
+                 />
+
+             </LinearLayout>
+
+
+         </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+            android:layout_width="320dp"
+            android:id="@+id/navigationview"
+             app:menu="@menu/menu_dashboard"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.nghia.shopsneaker">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+    <application
+            android:requestLegacyExternalStorage="true"
+            android:allowBackup="true"
+            android:icon="@drawable/sneakershop"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/sneakershop"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".View.LienHeActivity"
+        android:screenOrientation="portrait"/>
+<activity android:name=".View.ThongTinActivity"
+android:screenOrientation="portrait"/>
+        <activity android:name=".View.GioHangActivity"
+        android:screenOrientation="portrait"/>
+        <activity android:name=".View.QuanLyActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".View.ChitietSanPhamActivity"
+        android:screenOrientation="portrait"/>
+        <activity android:name=".View.QuanLySanPhamActivity"
+        android:screenOrientation="portrait"/>
+        <activity android:name="com.nghia.shopsneaker.View.HomeStoreActivity"
+        android:screenOrientation="portrait"/>
+        <activity android:name="com.nghia.shopsneaker.View.Store.StoreNewsActivity"
+        android:screenOrientation="portrait"/>
+        <activity android:name="com.nghia.shopsneaker.View.Store.CreateNewsActivity"
+        android:screenOrientation="portrait"/>
+        <activity android:name=".View.ThanhToanActivity"
+        android:screenOrientation="portrait"/>
+        <activity android:name="com.nghia.shopsneaker.View.LoginActivity"
+        android:screenOrientation="portrait"/>
+        <activity android:name="com.nghia.shopsneaker.View.MenuActivity"
+        android:screenOrientation="portrait"/>
+        <activity android:name="com.nghia.shopsneaker.View.SignUpActivity"
+        android:screenOrientation="portrait"/>
+        <activity android:name="com.nghia.shopsneaker.View.HomeActivity"
+        android:screenOrientation="portrait"/>
+        <activity android:name="com.nghia.shopsneaker.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="@string/API_MAP_KEY"/>
+    </application>
+
+
+</manifest>

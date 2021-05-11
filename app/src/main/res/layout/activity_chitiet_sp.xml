@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#FF9800"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    style="@style/ThemeOverlay.AppCompat.Dark"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView
+                
+                android:id="@+id/hinhanh"
+               
+                android:layout_width="120dp" android:layout_height="120dp"
+                android:layout_gravity="center"/>
+        <LinearLayout 
+                android:orientation="vertical"
+                android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:textColor="@android:color/background_light"
+                      android:shadowColor="@android:color/background_light"
+                      android:id="@+id/txtngay"
+                      android:gravity="end"
+                      android:textAllCaps="true"
+                      android:textStyle="bold"
+                      android:text="Sneaker 2"
+                      android:layout_gravity="center"
+                      android:textSize="14sp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textColor="@android:color/background_light"
+                      android:shadowColor="@android:color/background_light"
+                      android:id="@+id/txtten"
+                      android:textAllCaps="true"
+                      android:textStyle="bold"
+                      android:text="Sneaker 2"
+                     android:layout_marginLeft="5dp"
+                      android:textSize="18sp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textColor="@android:color/background_light"
+                      android:shadowColor="@android:color/background_light"
+                      android:id="@+id/txtgiatien"
+
+                      android:textStyle="bold"
+                      android:layout_marginTop="15dp"
+                      android:text="Sneaker 2"
+                      android:layout_marginLeft="8dp"
+                      android:textSize="18sp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textColor="@android:color/background_light"
+                      android:shadowColor="@android:color/background_light"
+                      android:id="@+id/txttype"
+
+                      android:textStyle="bold"
+                      android:layout_marginTop="15dp"
+                      android:text="Sneaker 2"
+                      android:layout_marginLeft="8dp"
+                      android:textSize="18sp"/>
+         <LinearLayout
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <TextView
+                 android:layout_marginLeft="10dp"
+                 android:shadowColor="@android:color/background_light"
+                 android:textStyle="bold"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:textColor="@android:color/background_light"
+                 android:textSize="18sp"
+                 android:text="Chọn Size : "
+                 android:layout_width="wrap_content"
+                 android:layout_height="50dp"/>
+             <androidx.appcompat.widget.AppCompatSpinner
+                 
+                 android:layout_width="120dp"
+
+                 android:gravity="center"
+                 android:id="@+id/spinerSize"
+                 android:layout_height="50dp"/>
+         </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_width="0dp" android:layout_height="2.5dp"
+        android:background="@android:color/background_light"
+              android:layout_gravity="center"
+              android:layout_marginLeft="15dp"
+        android:layout_weight="1"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Mô tả chi tiết"
+        android:textSize="18sp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginLeft="10dp"
+        android:textColor="@android:color/background_light"
+        android:shadowColor="@android:color/background_light"/>
+        <View android:layout_width="0dp" android:layout_height="2.5dp"
+              android:background="@android:color/background_light"
+              android:layout_gravity="center"
+             android:layout_marginRight="15dp"
+              android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textColor="@android:color/background_light"
+              android:shadowColor="@android:color/background_light"
+              android:id="@+id/txtmota"
+
+              android:textStyle="bold"
+              android:layout_marginTop="15dp"
+              android:text="Mô tả ở đây"
+              android:layout_marginLeft="8dp"
+              android:textSize="18sp"/>
+    <Button android:layout_width="140dp"
+        android:id="@+id/btnthemgiohang"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="100dp"
+        android:text="Thêm giỏ hàng"
+        android:textColor="@android:color/background_light"
+        android:shadowColor="@android:color/background_light"
+        android:background="@drawable/custom_button_login"
+        android:layout_height="wrap_content"
+android:layout_gravity="center"/>
+
+</LinearLayout>

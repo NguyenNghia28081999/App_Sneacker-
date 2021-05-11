@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "672058645298",
+    "project_id": "shopsneaker-e9ead",
+    "storage_bucket": "shopsneaker-e9ead.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672058645298:android:08313b104cbb6f4ce6d52b",
+        "android_client_info": {
+          "package_name": "com.nghia.shopsneaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672058645298-nd3pc8g0glmrv4lsa1co2hnumnbkr2a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD875L8DYinKjiAEkmO2mReEeuPEBgnlr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672058645298-nd3pc8g0glmrv4lsa1co2hnumnbkr2a2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
